@@ -33,6 +33,12 @@ main .card {
     content: "";
     clear: both;
 }
+.row-1{
+    padding: 10px;
+}
+.card{
+    margin: 2px;
+}
 
 
 h4{
