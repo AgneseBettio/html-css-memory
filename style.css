@@ -34,7 +34,8 @@ main .card {
     float: left;
 
     position: relative;
-
+    background-image: url(img/pattern.png);
+    background-size: contain;
     background-color: white;
     border: 1px solid black;
 
@@ -45,8 +46,8 @@ main .card {
 }
 img{
     display: inline-block;
-    height:200px;
-    width:150px;
+    width: 150px;
+    height: 200px;
     position: relative; 
 }
 .row::after{
@@ -62,10 +63,13 @@ img{
 }
 
 .card span{
-    display: inline-block;
+    display: block;
     width: 100%;
     position: absolute;
-    /* left: 40px; */
+    bottom: 20%;
+    text-align: center;
 
 }
-
+.card-submarine{
+    position: relative;
+}
