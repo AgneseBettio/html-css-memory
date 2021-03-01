@@ -18,19 +18,23 @@ main{
     height: 900px;
     background-color: violet;
     padding: 10px;
+    position: relative;
 
 }
 main .card {
     height:200px;
     width:24%;
-    display: inline-block;
+    float: left;
     background-color: wheat;
     border: 1px solid black;
 }
-.row-1{
-    padding: 5px;
-
+.row-1::after{
+    display: table;
+    content: "";
+    clear: both;
 }
+
+
 h4{
     text-align: center;
 }
