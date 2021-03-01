@@ -7,40 +7,47 @@
 body{
     background-color: #ADD8E6;
 }
-h1{
+header, footer{
+    margin-left: 15%;
+    margin-right:15%;
+    width:800px;
     text-align: center;
+}
+h1{
     text-transform: uppercase;
     color: #ffffff;
 }
 main{
     margin-left: 15%;
     margin-right:15%;
-    height: 900px;
+    height: 680px;
+    width:800px;
     background-color: violet;
     padding: 10px;
     position: relative;
-
 }
 main .card {
     height:200px;
-    width:24%;
+    width:150px;
     float: left;
     background-color: wheat;
     border: 1px solid black;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    border-radius: 15px;
+    
 }
-.row-1::after{
+
+.row::after{
     display: table;
     content: "";
     clear: both;
 }
-.row-1{
+.row{
     padding: 10px;
-}
-.card{
-    margin: 2px;
+    width: 100%;
+
 }
 
-
-h4{
-    text-align: center;
-}
