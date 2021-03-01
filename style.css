@@ -32,17 +32,20 @@ main .card {
     height:200px;
     width:150px;
     float: left;
-    padding-top:5px;
-
     position: relative;
-    /* background-image: url(img/pattern.png); */
+    background-image: url(img/pattern.png);
     background-size: contain;
     background-color: white;
     border: 1px solid black;
     margin-left: 20px;
     margin-right: 20px;
-    border-radius: 15px;   
+    border-radius: 15px;  
 }
+.hover{
+    height:200px;
+    width:150px;
+}
+
 img{
     /* display: inline-block; */
     width: 150px;
@@ -72,5 +75,9 @@ img{
 
 .uncovered{
     background-color: white;
+    border-radius: 15px;
 }
 
+main .card:hover .hover{
+    display: inline-block;
+}
